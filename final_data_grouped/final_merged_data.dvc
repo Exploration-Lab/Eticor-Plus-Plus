@@ -1,0 +1,6 @@
+outs:
+- md5: 4fb644ea1c9d621b33742bad6a108adb.dir
+  size: 14835235
+  nfiles: 21
+  hash: md5
+  path: final_merged_data
