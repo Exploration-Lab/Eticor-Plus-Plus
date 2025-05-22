@@ -1,0 +1,44 @@
+Positive Labels+++++++++++++++++++++++++++++++++++++++++
+
+NE=6325
+{'travel': 665, 'business': 1774, 'visits': 3142, 'dining': 744, 'NA': 0}
+
+EA=5064
+{'travel': 595, 'business': 1480, 'visits': 2439, 'dining': 550, 'NA': 0}
+
+INDIA=2085
+{'travel': 182, 'business': 552, 'visits': 1126, 'dining': 225, 'NA': 0}
+
+LA=3632
+{'travel': 522, 'business': 1029, 'visits': 1583, 'dining': 498, 'NA': 0}
+
+MEA=6754
+{'travel': 888, 'business': 1724, 'visits': 3492, 'dining': 650, 'NA': 0}
+
+----------------------------------------------------------------------
+Total Positive = 23860
+----------------------------------------------------------------------
+
+Negative Labels---------------------------------------------
+
+NE=6325
+{'travel': 665, 'business': 1774, 'visits': 3142, 'dining': 744, 'NA': 0}
+
+EA=5064
+{'travel': 595, 'business': 1480, 'visits': 2439, 'dining': 550, 'NA': 0}
+
+INDIA=2085
+{'travel': 182, 'business': 552, 'visits': 1126, 'dining': 225, 'NA': 0}
+
+LA=3632
+{'travel': 522, 'business': 1029, 'visits': 1583, 'dining': 498, 'NA': 0}
+
+MEA=6754
+{'travel': 888, 'business': 1724, 'visits': 3492, 'dining': 650, 'NA': 0}
+
+----------------------------------------------------------------------
+Total Negative = 23860
+----------------------------------------------------------------------
+
+
+TOTAL SIZE  = 47720
