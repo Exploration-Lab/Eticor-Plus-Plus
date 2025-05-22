@@ -6,9 +6,9 @@ A comprehensive framework for evaluating cultural etiquette understanding and bi
 
 Eticor-Plus-Plus is a multicultural dataset to evaluate how large language models (LLMs) understand and respond to cultural etiquettes across different regions of the world. The project assesses three key dimensions:
 
-1. **Etiquette Sensitivity Task**: How well models understand appropriate vs. inappropriate cultural behaviors.
-2. **Etiquette Generation Task**: How consistent are the model's region-specific generated etiquette content and what words do they use to do so.
-3. **Region Identification Task**: How models attribute etiquette statements to specific regions.
+1. **Etiquette Sensitivity Task**: How well models understand appropriate vs. inappropriate cultural behaviors. Use classification *accuracy* and *f1-score* as metrics for comparison.
+2. **Etiquette Generation Task**: How consistent are the model's region-specific generated etiquette content and what words do they use to do so. Defined *Generation Alignment Score (GAS)* to measure consistency and used *Odds Ratio* for qualitative assesment of generated etiquettes.
+3. **Region Identification Task**: How models attribute etiquette statements to specific regions. Defined three novel metrics (*Preference Score (PS), Bias For Score (BFS) and Bias Score Pairwise (BSP)*) to measure the biased behavior of LLMs against low-resource languages.
 
 ## Dataset
 
