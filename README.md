@@ -36,7 +36,6 @@ The framework tests multiple state-of-the-art LLMs:
 - LLaMA-3.1-8B-instruct
 - Phi-3.5-Mini-instruct
 
-
 ## Repository Structure
 
 ```
@@ -51,14 +50,17 @@ Eticor-Plus-Plus/
 └── notebooks/                # Jupyter notebooks for data collection and processing
 ```
 
-
 ## Installation and Setup
 
-[Fill in requirements and setup instructions]
+1. Basic libraries and modules are required such as `pytorch` with cuda enabled, `transformers`, `google-generativeai`, `goose3`, `textstat`, `glob2`, `numpy`, `pandas` etc.
+2. Please take care to provide access tokens/ api access keys wherever required. For example to access gated models or paid APIs.
+3. Download the data from [huggingface](https://huggingface.co/datasets/Exploration-Lab/Eticor-Plus-Plus) to use in experiments.
 
 ## Running Experiments
 
-[Fill in instructions for running experiments]
+* For E-sensitivity task, Region Identification Task and Etiquette Generation Task, one can simply run the model-specific scripts by providing required arguments and generate multiple responses to analyse them. Directories with names containing the response numbers will be generated.
+* Some tasks require running of additional scripts before the analysis can be done. For Etiquette Generation Task, it is required to run the `gen_response_dict.py` and also the `new_gen_bias_script.py` scripts before moving towards the analysis.
+* Support for continuation is also available. For ChatGPT and Gemini, the script will continue getting the response from where it left (if you want to understand more, see `chatgpt_*.py` files and `gemini_*.py` files.
 
 ## Citation
 
