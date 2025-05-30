@@ -1,4 +1,4 @@
-![World_map.pdf](World_map.pdf)
+![World_map.png](World_map.png)
 
 # Eticor-Plus-Plus
 
