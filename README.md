@@ -1,4 +1,5 @@
-# Eticor-Plus-Plus
+# Eticor-Plus-Plus[World_map.pdf](World_map.pdf)
+
 
 Large Language Models (LLMs) are increasingly being used in global applications, yet their understanding of cultural norms, especially etiquettes that vary from region to region, remains underexplored. Etiquettes are not just social niceties; they are a key part of cultural identity, and making LLMs aware of them is crucial for building respectful and culturally aware AI.
 
