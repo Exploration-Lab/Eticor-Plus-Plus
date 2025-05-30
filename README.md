@@ -1,6 +1,10 @@
 # Eticor-Plus-Plus
 
-A comprehensive framework for evaluating cultural etiquette understanding and biases in Large Language Models (LLMs).
+Large Language Models (LLMs) are increasingly being used in global applications, yet their understanding of cultural norms, especially etiquettes that vary from region to region, remains underexplored. Etiquettes are not just social niceties; they are a key part of cultural identity, and making LLMs aware of them is crucial for building respectful and culturally aware AI.
+
+To address this gap, we present EtiCor++, a curated dataset of etiquettes from around the world. This resource is designed to evaluate LLMs on their knowledge of regional etiquettes and to analyze cultural biases in their responses. We provide a suite of tasks and introduce general and novel metrics for measuring how fair and consistent LLMs are across different cultures.
+
+Our experiments reveal that popular LLMs often show unintended regional bias, highlighting the importance of this work for all kinds of practitioners aiming to build more inclusive AI systems.
 
 ## Project Overview
 
@@ -12,7 +16,7 @@ Eticor-Plus-Plus is a multicultural dataset to evaluate how large language model
 
 ## Dataset
 
-The core dataset `Eticor_plus_plus` contains cultural etiquette statements across five global regions:
+The core dataset `Eticor_plus_plus` can be downloaded from [huggingface](https://huggingface.co/datasets/Exploration-Lab/Eticor-Plus-Plus) to use in experiments.It contains cultural etiquette statements across five global regions:
 
 - East Asia (EA)
 - Middle East & Africa (MEA)
@@ -54,7 +58,7 @@ Eticor-Plus-Plus/
 
 1. Basic libraries and modules are required such as `pytorch` with cuda enabled, `transformers`, `google-generativeai`, `goose3`, `textstat`, `glob2`, `numpy`, `pandas` etc.
 2. Please take care to provide access tokens/ api access keys wherever required. For example to access gated models or paid APIs.
-3. Download the data from [huggingface](https://huggingface.co/datasets/Exploration-Lab/Eticor-Plus-Plus) to use in experiments.
+3. Make sure to use proper format of dataset and use correct file paths for experimentation as well as the analysis.
 
 ## Running Experiments
 
@@ -64,12 +68,24 @@ Eticor-Plus-Plus/
 
 ## Citation
 
-[Fill in citation information when published]
-
-## Contributors
-
-[Fill in contributor information]
+```
+@inproceedings{dwivedi-etal-2025-eticor-plus-plus,
+    title = "{EtiCor++}: Towards Understanding Etiquettical Bias in LLMs",
+    author = "Dwivedi, Ashutosh and
+      Singh, Siddhant Shivdutt and
+      Modi, Ashutosh",
+    booktitle = "Proceedings of the 2025 Findings of Conference on Association of Computational Linguistics",
+    month = dec,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    abstract = "In recent years, researchers have started analyzing the cultural sensitivity of LLMs. In this respect, Etiquettes have been an active area of research. Etiquettes are region-specific and are an essential part of the culture of a region; hence, it is imperative to make LLMs sensitive to etiquettes. However, there needs to be more resources in evaluating LLMs for their understanding and bias with regard to etiquettes. In this resource paper, we introduce EtiCor++, a corpus of etiquettes worldwide. We introduce different tasks for evaluating LLMs for knowledge about etiquettes across various regions. Further, we introduce various metrics for measuring bias in LLMs. Extensive experimentation with LLMs shows inherent bias towards certain regions."
+}
+```
 
 ## License
 
-[Fill in license information]
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+
+The Eticor++ dataset follows [CC-BY-NC](CC-BY-NC) license. Thus, users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes.
