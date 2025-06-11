@@ -1,12 +1,16 @@
 ![World_map.png](World_map.png)
 
-# Eticor-Plus-Plus
+# Eticor++
 
 Large Language Models (LLMs) are increasingly being used in global applications, yet their understanding of cultural norms, especially etiquettes that vary from region to region, remains underexplored. Etiquettes are not just social niceties; they are a key part of cultural identity, and making LLMs aware of them is crucial for building respectful and culturally aware AI.
 
 To address this gap, we present EtiCor++, a curated dataset of etiquettes from around the world. This resource is designed to evaluate LLMs on their knowledge of regional etiquettes and to analyze cultural biases in their responses. We provide a suite of tasks and introduce general and novel metrics for measuring how fair and consistent LLMs are across different cultures.
 
 Our experiments reveal that popular LLMs often show unintended regional bias, highlighting the importance of this work for all kinds of practitioners aiming to build more inclusive AI systems.
+
+## Paper Link
+
+http://arxiv.org/abs/2506.08488
 
 ## Project Overview
 
